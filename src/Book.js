@@ -3,6 +3,7 @@ import React from 'react'
 const Book = (props) => {
   const {img, title, author} = props;
   const clickHandler = () => {
+    console.log('Button clicked');
     alert('Button clicked');
   };
   const complexExample = (author) => {
